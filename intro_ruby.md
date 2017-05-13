@@ -2,7 +2,7 @@
 
 Ruby and other programming languages allow us to write logic such that we do not need to always hard code our webpages with information.  Instead we can use logic to produce an output.
 
-# Be something and do something 
+# Be something and do something
 
 There are really just two things any programming language is involved with: being something and doing something.  For being something we use variables, and for doing something we use methods.
 
@@ -34,13 +34,13 @@ Here is how we type in some text.
 
 You start any text with quotation marks, and this is called a String.  Now what we said previously is that this lived in a location in memory, so let's see where that location is.
 
-Type in the following: 
+Type in the following:
 
 ```ruby
 "Oscar".object_id
 ```
 
-That is the **memory address** of the string that you just typed in.  Now because we don't want to remember an address like this, we instead name give a name to this location, and we can name that location any lowercase collection of characters that we like. 
+That is the **memory address** of the string that you just typed in.  Now because we don't want to remember an address like this, we instead name give a name to this location, and we can name that location any lowercase collection of characters that we like.
 
 ```ruby
 @first_name = "Oscar"
@@ -71,7 +71,7 @@ What we would really like to do, is to have a way to refer to this procedure so 
 def full_name
 	@first_name + @last_name
 end
-``` 
+```
 
 After declaring the method like above.  Now type in `full_name` and see what happens.
 
@@ -110,11 +110,9 @@ Then begin typing in our code.
 
 ### Review
 
-When you are done, answer with a partner: 
+When you are done, answer with a partner:
 
 1. What is the difference between a variable and a method?
-2. When we have the method `full_name` what is ruby doing?  Use words "going to an address in memory" in your answer. 
+2. When we have the method `full_name` what is ruby doing?  Use words "going to an address in memory" in your answer.
 
-
-
-
+**up next** [ruby and html](./ruby_and_html.md)
